@@ -7,8 +7,12 @@ ul{
     list-style: none;
 }
 a{
-    list-style: none;
+    text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 /* general */
 
 :root {
@@ -33,6 +37,10 @@ a{
 .bg-footer{
     background-color: var(--color-footer);
 }
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
  img{
     width: 100%;
     display: block;
@@ -116,16 +124,24 @@ p{
     line-height: 1.5;
 }
 h3{
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
 /* layoutmain */
 
 /* section1 */
+
 .card{
     padding: 20px;
     margin-bottom: 10px;
     background-color: var(--color-cardheader);
+}
+.button-apple{
+    background-color:var(--color-button1);
+    color: white;
+    border-radius: 30px ;
+    padding: 10px;
+    margin: 40px auto;
 }
 .icon{
     font-size: 3em;
@@ -134,22 +150,50 @@ h3{
     width: 70%;
     margin: 0 auto;
 }
+.text-content{
+    margin: 20px auto;
+    padding: 15px;
+    
+}
 #info .cointaner>.card{
     padding-bottom: 0;
 }
+
  /* section2 */
- .right{
+ #custom-app h2{
+    font-size: 1.5em;
+    padding: 15px;
     margin-top: 20px;
-    padding: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+ }
+
+
+ .right{
+    margin: 10px 0;
+    padding:10px 20px;
     background-color: var(--color-section2-main);
  }
  #custom-app img{
     width: 70%;
     margin: 0 auto;
  }
+ .button-custom {
+    background-color: var(--color-button2);
+    width: 35px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    vertical-align: center;
+    margin: 20px auto;
+
+}
 
  /* section3 */
+
+#partner h3{
+    font-size: 2em;
+} 
+
+
  .testimonial{
     margin-top: 20px;
     padding: 20px;
@@ -166,19 +210,78 @@ h3{
     height: 100%;
     object-fit: cover;
  }
+ .text-testimonials{
+    padding: 30px;
+ }
 
  /* section4 */
+
+ #work-with-us h2{
+    font-size: 3.5em;
+    padding: 10px
+ }
+ #work-with-us h4{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+ }
+ 
  .postcard{
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 20px auto;
     padding: 20px;
     margin-bottom: 10px;
     background-color: var(--color-section2-main);
     color: var(--color-section-main);
  }
+ .button-sec4 {
+    background-color:var(--color-button2);
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+    width: 50%;
+
+}
+/* secttion5 */
+
+.button-about {
+    background-color:var(--color-button2);
+    border-radius: 20px;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    
+}
+#about-us h2{
+    font-size: 3em;
+    padding: 20px;
+}
+#about-us h3{
+    font-size: 2em;
+}
+.text-about{
+    line-height: 2em;
+    margin-bottom: 22px;
+    
+}
 
 
+
+
+
+
+
+
+/* section 6 */
+#calltoaction h2{
+    font-size: 6em;
+}
+#calltoaction h3{
+    font-size: 3em;
+}
+#calltoaction h4{
+    font-weight: 100;
+    color: #cac5f0 ;
+}
 
 
 
