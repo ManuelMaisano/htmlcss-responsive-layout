@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+/* general */
+
+:root {
+	--color-navbar: #0084fd;
+	--color-cardheader: #b5ddff;
+	--color-section-main: #9792e4;
+	--color-button1: #0084fd;
+	--color-button2: #9792e4;
+	--color-footer: #333333;
+	--color-section2-main: #ffffff;
+    --color-itsfree: #fdc15f;
+}
+.bg-navbar{
+    background-color: var(--color-navbar);
+}
+.sectionwhite{
+    background-color: var(--color-section2-main);
+}
+.sectionviolet{
+    background-color: var(--color-section-main);
+}
+.bg-footer{
+    background-color: var(--color-footer);
+}
+ 
+
+
+.cointaner{
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* layoutmain */
+.card{
+    margin-bottom: 10px;
+    background-color: var(--color-cardheader);
+}
