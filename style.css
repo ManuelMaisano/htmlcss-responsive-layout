@@ -238,7 +238,7 @@ h3{
     border-radius: 10px;
     padding: 5px;
     margin-top: 15px;
-    width: 50%;
+    width: 40%;
 
 }
 /* secttion5 */
@@ -282,7 +282,14 @@ h3{
     font-weight: 100;
     color: #cac5f0 ;
 }
-
+.button-get{
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--color-section2-main);
+    width: 40%;
+    margin: 20px auto 20px;
+}
 
 
 
