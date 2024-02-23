@@ -234,11 +234,11 @@ h3{
  }
  .button-sec4 {
     background-color:var(--color-button2);
-    margin: 10px auto;
-    border-radius: 10px;
-    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
     margin-top: 15px;
-    width: 40%;
+    width: 25%;
 
 }
 /* secttion5 */
